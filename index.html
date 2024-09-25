@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FORYOU</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="bg_musik">
+    <audio id="myAudio" src="audio.mp3" loop></audio>
+      <button class="button_musik" onclick="playAudio()">MUSIC</button>
+  </div>
+  
+  <div class="wrapper">
+    <div class="container">
+      
+        <div class="content active">
+          <div class="hi">hii!!</div>
+          <div class="sin">SINTA</div>
+        </div>
+        
+        <div class="content">
+          <div class="gif"><img src="st.webp">
+          </div>
+          <div class="happy">happy</div>
+          <div class="birth">birthday!!!</div>
+        </div>
+        
+        <div class="content">
+          <div class="word1">
+            aku mau ngomong sesuatu...
+          </div>
+        </div>
+        
+        <div class="content">
+          <div class="word2">
+            aku berterima kasih banget sama kamu
+          </div>
+        </div>
+        
+        <div class="content">
+          <div class="word3">
+            banyak tindakan kecil kamu yang mengubahku
+          </div>
+        </div>
+        
+        <div class="content">
+          <div class="word4">
+            yaa meskipun sampe dimusuhin sii &#128530;
+          </div>
+        </div>
+        
+        <div class="content">
+          <div class="word5">
+            gaje emang
+          </div>
+        </div>
+        
+        <div class="content">
+          <div class="word6">
+            tapi terlepas dari itu aku bisa seperti sekarang
+          </div>
+        </div>
+        
+        <div class="content">
+          <div class="word7">
+            and i feel better
+          </div>
+        </div>
+        
+        <div class="content">
+          <div class="word8">
+            di ulang tahunmu kali ini maupun tahun-tahun berikutnya
+          </div>
+        </div>
+        
+        <div class="content">
+          <div class="word9">
+            aku berharap...
+          </div>
+        </div>
+        
+        <div class="content">
+          <div class="word10">
+            semoga suatu hari nanti kamu bisa menggapai semua cita-citamu
+          </div>
+        </div>
+        
+        <div class="content">
+          <div class="word11">
+            amin dong
+          </div>
+        </div>
+        
+        <div class="content">
+          <div class="word12">
+           selalu diberikan kemudahan dan kelancaran
+          </div>
+        </div>
+        
+        <div class="content">
+          <div class="word13">
+            semangat kuliahnya
+          </div>
+        </div>
+        
+        <div class="content">
+          <div class="word14">
+            teruslah menjadi motivasi buat semua orang
+          </div>
+        </div>
+        
+        <div class="content">
+          <div class="word15">
+            senang mengenalmu
+          </div>
+        </div>
+        
+        <div class="content">
+          <div class="word16">
+            bye bye
+          </div>
+          <div class="dr">
+            bu dokteer &#128293;&#128293;&#128293;
+          </div>
+        </div>
+        
+    </div>
+  </div>
+  
+  <div class="tombol">
+    <button id="btnP" class="prev">PREV</button>
+    <button id="btnN" class="next">NEXT</button>
+  </div>
+  
+  <script>
+    const audio = document.getElementById('myAudio');
+
+    function playAudio() {
+        audio.play();
+    }
+    
+    let currentIndex = 0;
+    const contents = document.querySelectorAll('.content');
+
+    function showContent(index) {
+        contents.forEach((content, i) => {
+            content.classList.toggle('active', i === index);
+        });
+    }
+
+    document.getElementById('btnP').addEventListener('click', () => {
+        if (currentIndex > 0) {
+            currentIndex--;
+        }
+        showContent(currentIndex);
+    });
+
+    document.getElementById('btnN').addEventListener('click', () => {
+        if (currentIndex < contents.length - 1) {
+            currentIndex++;
+        }
+        showContent(currentIndex);
+    });
+    // Tampilkan konten awal
+    showContent(currentIndex);
+  </script>
+</body>
+</html>
