@@ -36,6 +36,7 @@ body {
   font-weight: bold;
   font-size: 16px;
   letter-spacing: 1px;
+  color: black;
 }
 
 
@@ -155,6 +156,7 @@ body {
   width: 100%;
   margin-top: auto;
   margin-bottom: auto;
+  color: black;
 }
 
 .sin {
@@ -209,6 +211,7 @@ body {
   font-size: 16px;
   letter-spacing: 1px;
   margin-left: 30px;
+  color: black;
 }
 
 .prev{
@@ -224,6 +227,7 @@ body {
   font-size: 16px;
   letter-spacing: 1px;
   margin-right: 30px;
+  color: black;
 }
 
 .happy {
@@ -236,6 +240,7 @@ body {
   font-family: Caveat;
   font-size: 1.5em;
   background-color: transparent;
+  color: black;
   
   top: 60%;
   left: 50%; 
@@ -253,6 +258,7 @@ body {
   font-family: Caveat;
   font-weight: bold;
   font-size: 3em;
+  color: black;
   
   top: 65%;
   left: 50%; 
@@ -267,7 +273,7 @@ body {
   background-color: transparent;
   text-align: center;
   font-family: Plus Jakarta Sans;
-  
+  color: black;
 }
 
 .word2{
@@ -278,7 +284,7 @@ body {
   background-color: transparent;
   text-align: center;
   font-family: Plus Jakarta Sans;
-  
+  color: black;
 }
 
 .word3{
@@ -289,7 +295,7 @@ body {
   background-color: transparent;
   text-align: center;
   font-family: Plus Jakarta Sans;
-  
+  color: black;
 }
 
 .word4{
@@ -300,6 +306,7 @@ body {
   background-color: transparent;
   text-align: center;
   font-family: Plus Jakarta Sans;
+  color: black;
 }
 
 .word5{
@@ -310,6 +317,7 @@ body {
   background-color: transparent;
   text-align: center;
   font-family: Plus Jakarta Sans;
+  color: black;
 }
 
 .word6{
@@ -320,6 +328,7 @@ body {
   background-color: transparent;
   text-align: center;
   font-family: Plus Jakarta Sans;
+  color: black;
 }
 
 .word7{
@@ -330,6 +339,7 @@ body {
   background-color: transparent;
   text-align: center;
   font-family: Plus Jakarta Sans;
+  color: black;
 }
 
 .word8{
@@ -340,6 +350,7 @@ body {
   background-color: transparent;
   text-align: center;
   font-family: Plus Jakarta Sans;
+  color: black;
 }
 
 .word9{
@@ -350,6 +361,7 @@ body {
   background-color: transparent;
   text-align: center;
   font-family: Plus Jakarta Sans;
+  color: black;
 }
 
 .word10{
@@ -360,6 +372,7 @@ body {
   background-color: transparent;
   text-align: center;
   font-family: Plus Jakarta Sans;
+  color: black;
 }
 
 .word11{
@@ -370,6 +383,7 @@ body {
   background-color: transparent;
   text-align: center;
   font-family: Plus Jakarta Sans;
+  color: black;
 }
 
 .word12{
@@ -380,6 +394,7 @@ body {
   background-color: transparent;
   text-align: center;
   font-family: Plus Jakarta Sans;
+  color: black;
 }
 
 .word13{
@@ -390,6 +405,7 @@ body {
   background-color: transparent;
   text-align: center;
   font-family: Plus Jakarta Sans;
+  color: black;
 }
 
 .word14{
@@ -400,6 +416,7 @@ body {
   background-color: transparent;
   text-align: center;
   font-family: Plus Jakarta Sans;
+  color: black;
 }
 
 .word15{
